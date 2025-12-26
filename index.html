@@ -15,19 +15,18 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <div class="avatar" aria-hidden="true">NL</div>
         <div>
           <h1>Nini Yining Lin</h1>
-          <p class="subtitle">Ph.D. Student — Public Policy & Management (CMU)</p>
+          <p class="subtitle">Ph.D. Student — Public Policy &amp; Management (CMU)</p>
         </div>
       </div>
 
       <nav class="nav">
         <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#experience">Experience</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#skills">Skills</a>
+        <a href="#cv">CV</a>
+        <a href="#working-paper">Working Paper</a>
+        <a href="#work-in-progress">Work in Progress</a>
+        <a href="#industry">Industry Experience</a>
         <a class="btn" href="#contact">Contact</a>
       </nav>
     </div>
@@ -44,8 +43,12 @@
           </p>
 
           <div class="hero-actions">
-            <a class="btn" href="#research">View research</a>
-            <a class="btn secondary" href="#contact">Get in touch</a>
+            <a class="btn" href="#working-paper">View research</a>
+            <a class="btn secondary" href="#cv">CV</a>
+            <!-- Replace the href with your real LinkedIn URL -->
+            <a class="btn secondary" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
           </div>
 
           <div class="badges">
@@ -55,13 +58,22 @@
           </div>
         </div>
 
-        <aside class="card quick-facts" aria-label="Quick facts">
+        <aside class="card portrait-card" aria-label="Portrait and quick facts">
+          <!-- Put a file named portrait.jpg in the repo root -->
+          <img class="portrait" src="portrait.jpg" alt="Portrait photo of Nini Yining Lin" />
+
+          <div class="portrait-meta">
+            <h3 class="portrait-name">Nini Yining Lin</h3>
+            <p class="muted portrait-line">Ph.D. Student, CMU</p>
+          </div>
+
+          <div class="divider"></div>
+
           <h3>Quick facts</h3>
           <ul>
             <li><strong>Ph.D.</strong> Public Policy &amp; Management (Expected May 2030)</li>
             <li><strong>Research:</strong> EdTech take-up, teacher adoption, learning outcomes</li>
             <li><strong>Methods:</strong> RCTs, applied econometrics</li>
-            <li><strong>Tools:</strong> Python, R, Stata</li>
           </ul>
         </aside>
       </div>
@@ -122,11 +134,30 @@
       </div>
     </section>
 
-    <section id="research" class="section alt">
+    <section id="cv" class="section alt">
       <div class="container">
         <div class="section-header">
-          <h2>Research</h2>
-          <p>Selected papers and projects.</p>
+          <h2>Curriculum Vitae</h2>
+          <p>Download the current CV.</p>
+        </div>
+
+        <div class="card">
+          <!-- Put a file named cv.pdf in the repo root -->
+          <p>
+            <a class="link" href="cv.pdf" target="_blank" rel="noopener noreferrer">
+              Download CV (PDF)
+            </a>
+          </p>
+          <p class="muted">Last updated: December 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="working-paper" class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Working Paper</h2>
+          <p>Selected work.</p>
         </div>
 
         <div class="grid">
@@ -152,153 +183,61 @@
               </span>
             </div>
           </article>
-
-          <article class="card">
-            <div class="card-top">
-              <h3>Using Duolingo to Improve Low-Income Students’ English Learning</h3>
-              <span class="tag">Work in progress</span>
-            </div>
-            <p>
-              Field experiment with <strong>~16,000 middle school students</strong>, with Shuangye Chen and Xiaoyang Ye.
-            </p>
-            <ul class="bullets">
-              <li>Presented at John List Voltage Research Program (UChicago), Aug 2024</li>
-              <li>RCT Registry: <span class="mono">AEARCTR-0014228</span></li>
-            </ul>
-            <div class="meta">
-              <span class="meta-item">
-                <a href="#" class="link" title="Add your project link here" onclick="return false;">Project link (add)</a>
-              </span>
-            </div>
-          </article>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="section">
+    <section id="work-in-progress" class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Experience</h2>
-          <p>Research and industry roles.</p>
+          <h2>Work in Progress</h2>
         </div>
 
-        <div class="grid two">
-          <div class="card">
-            <h3>Research experience</h3>
-            <ul class="timeline">
-              <li>
-                <div class="when">Sep 2024 – Present</div>
-                <div class="what">
-                  <strong>Research Assistant</strong><br />
-                  John List Voltage Research Program, University of Chicago
-                </div>
-              </li>
-              <li>
-                <div class="when">Oct 2023 – May 2024</div>
-                <div class="what">
-                  <strong>Research Assistant</strong><br />
-                  National Institutes of Educational Policy Research, ECNU
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="card">
-            <h3>Industry experience</h3>
-
-            <div class="role">
-              <div class="role-top">
-                <strong>Avenues: The World School (New York)</strong>
-                <span class="muted">Oct 2019 – Sep 2022</span>
-              </div>
-              <div class="muted">Regional Market Manager, Founding Team</div>
-              <ul class="bullets">
-                <li>Launched the first regional campus in China; built SOPs for cross-border management</li>
-                <li>Built the regional admissions database to improve global enrollment analytics</li>
-                <li>Developed a digital communication framework across 15 channels</li>
-              </ul>
-            </div>
-
-            <div class="role">
-              <div class="role-top">
-                <strong>Avenues: The World School (New York)</strong>
-                <span class="muted">Jul 2017 – Sep 2019</span>
-              </div>
-              <div class="muted">Project Specialist</div>
-              <ul class="bullets">
-                <li>Analyzed China’s K12 education market, policies, and trends for strategy</li>
-                <li>Managed cross-country marketing, audience profiling, and market audits</li>
-                <li>Supported curriculum development for campus expansions</li>
-              </ul>
-            </div>
-
-          </div>
+        <div class="card">
+          <h3>Using Duolingo to Improve Low-Income Students’ English Learning</h3>
+          <p>
+            Large-scale randomized field experiment with approximately 16,000 middle school students.
+            Joint work with Shuangye Chen and Xiaoyang Ye.
+          </p>
+          <ul class="bullets">
+            <li>Presented at John List Voltage Research Program (UChicago), Aug 2024</li>
+            <li>RCT Registry: <span class="mono">AEARCTR-0014228</span></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="teaching" class="section alt">
+    <section id="industry" class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Teaching</h2>
-          <p>Teaching assistant roles at the University of Chicago.</p>
+          <h2>Industry Experience</h2>
+          <p>Selected roles.</p>
         </div>
 
-        <div class="grid">
-          <div class="card">
-            <ul class="timeline">
-              <li>
-                <div class="when">Fall 2024</div>
-                <div class="what">
-                  <strong>Coding Lab for Public Policy</strong><br />
-                  Teaching Assistant, Harris School of Public Policy
-                </div>
-              </li>
-              <li>
-                <div class="when">Winter 2025</div>
-                <div class="what">
-                  <strong>Introduction to Economics of Education</strong><br />
-                  Teaching Assistant, Kenneth C. Griffin Department of Economics
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Skills</h2>
-          <p>Tools, certificates, and languages.</p>
-        </div>
-
-        <div class="grid three">
-          <div class="card">
-            <h3>Technical</h3>
-            <div class="pill-list">
-              <span class="pill">Python</span>
-              <span class="pill">R</span>
-              <span class="pill">Stata</span>
+        <div class="card">
+          <div class="role">
+            <div class="role-top">
+              <strong>Avenues: The World School (New York)</strong>
+              <span class="muted">Oct 2019 – Sep 2022</span>
             </div>
-          </div>
-
-          <div class="card">
-            <h3>Certificates</h3>
+            <div class="muted">Regional Market Manager, Founding Team</div>
             <ul class="bullets">
-              <li>UChicago Data and Policy Summer Scholar</li>
-              <li>UChicago Persuasive Writing Certificate</li>
+              <li>Launched the first regional campus in China; built SOPs for cross-border management</li>
+              <li>Built the regional admissions database to improve global enrollment analytics</li>
+              <li>Developed a digital communication framework across 15 channels</li>
             </ul>
           </div>
 
-          <div class="card">
-            <h3>Languages</h3>
+          <div class="role">
+            <div class="role-top">
+              <strong>Avenues: The World School (New York)</strong>
+              <span class="muted">Jul 2017 – Sep 2019</span>
+            </div>
+            <div class="muted">Project Specialist</div>
             <ul class="bullets">
-              <li>Chinese (Native)</li>
-              <li>English (Fluent)</li>
-              <li>Japanese (Proficient)</li>
-              <li>French (Basic)</li>
+              <li>Analyzed China’s K12 education market, policies, and trends for strategy</li>
+              <li>Managed cross-country marketing, audience profiling, and market audits</li>
+              <li>Supported curriculum development for campus expansions</li>
             </ul>
           </div>
         </div>
@@ -309,7 +248,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Contact</h2>
-          <p>Quick ways to reach you.</p>
+          <p>Quick ways to reach me.</p>
         </div>
 
         <div class="grid two">
@@ -320,20 +259,15 @@
               <li><span class="label">Phone</span> <a class="link" href="tel:+18729041243">(872) 904-1243</a></li>
               <li><span class="label">Location</span> United States</li>
             </ul>
-
-            <div class="note">
-              <p class="muted">
-                Add your GitHub / Google Scholar / CV PDF links here when ready.
-              </p>
-            </div>
           </div>
 
           <div class="card">
-            <h3>Optional links (placeholders)</h3>
+            <h3>Links</h3>
             <ul class="contact-list">
-              <li><span class="label">GitHub</span> <a class="link" href="#" onclick="return false;">@yourhandle</a></li>
-              <li><span class="label">Google Scholar</span> <a class="link" href="#" onclick="return false;">Profile</a></li>
-              <li><span class="label">CV</span> <a class="link" href="#" onclick="return false;">PDF</a></li>
+              <!-- Replace with your real LinkedIn URL -->
+              <li><span class="label">LinkedIn</span> <a class="link" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/" target="_blank" rel="noopener noreferrer">Profile</a></li>
+              <!-- Optional placeholders -->
+              <li><span class="label">CV</span> <a class="link" href="cv.pdf" target="_blank" rel="noopener noreferrer">cv.pdf</a></li>
             </ul>
 
             <button class="btn secondary" id="copyEmailBtn" type="button">Copy email</button>
